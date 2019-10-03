@@ -1,0 +1,14 @@
+{
+  "name": "express-server-on-zeit-now",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js",
+    "deploy": "now"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3"
+  }
+}
